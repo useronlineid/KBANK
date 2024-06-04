@@ -39,21 +39,12 @@ body {
 }
 
 #capture {
-    background-color: #fff;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    position: relative;
     width: 1500px; /* กำหนดความกว้างขององค์ประกอบ */
 }
 
-#capture p {
-    margin: 5px 0;
-}
 
 #capture img {
     display: block;
-    margin: 0 auto 20px; /* รูปภาพอยู่ตรงกลางและมีระยะห่างด้านล่าง */
     width: 1500px; /* กำหนดขนาดของรูปภาพตามต้องการ */
     height: 720px;
 }
