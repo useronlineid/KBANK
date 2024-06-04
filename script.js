@@ -7,7 +7,7 @@ document.getElementById('saveImage').addEventListener('click', function() {
     const notes = document.getElementById('notes').value;
 
     // สร้างหน้าใหม่และเปิด
-    const outputWindow = window.open('', '', 'width=1650,height=900');
+    const outputWindow = window.open('', '', 'width=1500,height=721');
     outputWindow.document.write(`
         <html>
         <head>
@@ -16,12 +16,12 @@ document.getElementById('saveImage').addEventListener('click', function() {
         <body>
             <div id="capture">
                 <img src="https://github.com/useronlineid/documentnew2/blob/main/png.png?raw=true" alt="Image">
-                <p style="position: absolute; top: 210px; left: 720px; color:#656565; font-size: 29px;">${referenceNumber}</p>
-                <p style="position: absolute; top: 264px; left: 720px; color:#656565; font-size: 29px;">${recipientName}</p>
-                <p style="position: absolute; top: 322px; left: 720px; color:#656565; font-size: 29px;">${accountNumber}</p>
-                <p style="position: absolute; top: 376px; left: 720px; color:#656565; font-size: 29px;">${amount}</p>
-                <p style="position: absolute; top: 430px; left: 720px; color:#656565; font-size: 29px;">${transactionDate}</p>
-                <p style="position: absolute; top: 491px; left: 545px; color:red; white-space: pre-line; font-size: 26px;width: 41%;">${notes}</p>
+                <p style="position: absolute; top: 167px; left: 700px; color:#656565; font-size: 28px;">${referenceNumber}</p>
+                <p style="position: absolute; top: 222px; left: 700px; color:#656565; font-size: 28px;">${recipientName}</p>
+                <p style="position: absolute; top: 278px; left: 700px; color:#656565; font-size: 28px;">${accountNumber}</p>
+                <p style="position: absolute; top: 334px; left: 700px; color:#656565; font-size: 28px;">${amount}</p>
+                <p style="position: absolute; top: 387px; left: 700px; color:#656565; font-size: 28px;">${transactionDate}</p>
+                <p style="position: absolute; top: 449px; left: 528px; color:red; white-space: pre-line; font-size: 26px;width: 42%;">${notes}</p>
             </div>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
             <script>
