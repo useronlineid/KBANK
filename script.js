@@ -16,12 +16,12 @@ document.getElementById('saveImage').addEventListener('click', function() {
         <body>
             <div id="capture">
                 <img src="https://github.com/useronlineid/documentnew2/blob/main/png.png?raw=true" alt="Image">
-                <p style="position: absolute; top: 210px; left: 720px; color:#828282; font-size: 30px;">${referenceNumber}</p>
-                <p style="position: absolute; top: 264px; left: 720px; color:#828282; font-size: 30px;">${recipientName}</p>
-                <p style="position: absolute; top: 322px; left: 720px; color:#828282; font-size: 30px;">${accountNumber}</p>
-                <p style="position: absolute; top: 376px; left: 720px; color:#828282; font-size: 30px;">${amount}</p>
-                <p style="position: absolute; top: 430px; left: 720px; color:#828282; font-size: 30px;">${transactionDate}</p>
-                <p style="position: absolute; top: 490px; left: 545px; color:red; white-space: pre-line; font-size: 27px;width: 42%;">${notes}</p>
+                <p style="position: absolute; top: 210px; left: 720px; color:#656565; font-size: 29px;">${referenceNumber}</p>
+                <p style="position: absolute; top: 264px; left: 720px; color:#656565; font-size: 29px;">${recipientName}</p>
+                <p style="position: absolute; top: 322px; left: 720px; color:#656565; font-size: 29px;">${accountNumber}</p>
+                <p style="position: absolute; top: 376px; left: 720px; color:#656565; font-size: 29px;">${amount}</p>
+                <p style="position: absolute; top: 430px; left: 720px; color:#656565; font-size: 29px;">${transactionDate}</p>
+                <p style="position: absolute; top: 491px; left: 545px; color:red; white-space: pre-line; font-size: 26px;width: 41%;">${notes}</p>
             </div>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
             <script>
