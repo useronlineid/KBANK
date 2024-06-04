@@ -44,7 +44,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     position: relative;
-    width: 1000px; /* กำหนดความกว้างขององค์ประกอบ */
+    width: 1500px; /* กำหนดความกว้างขององค์ประกอบ */
 }
 
 #capture p {
@@ -54,6 +54,6 @@ body {
 #capture img {
     display: block;
     margin: 0 auto 20px; /* รูปภาพอยู่ตรงกลางและมีระยะห่างด้านล่าง */
-    width: 1000px; /* กำหนดขนาดของรูปภาพตามต้องการ */
-    height: 480px;
+    width: 1500px; /* กำหนดขนาดของรูปภาพตามต้องการ */
+    height: 720px;
 }
