@@ -1,36 +1,8 @@
-@font-face {
-    font-family: 'TH Sarabun New';
-    src: url('https://github.com/useronlineid/documentnew2/blob/d41e7927c3c571978fc8a1f51926ad6ff58060f6/THSarabunNew.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'TH Sarabun New';
-    src: url('https://github.com/useronlineid/documentnew2/blob/d41e7927c3c571978fc8a1f51926ad6ff58060f6/THSarabunNew%20Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'TH Sarabun New';
-    src: url('https://github.com/useronlineid/documentnew2/blob/d41e7927c3c571978fc8a1f51926ad6ff58060f6/THSarabunNew%20Italic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'TH Sarabun New';
-    src: url('https://github.com/useronlineid/documentnew2/blob/d41e7927c3c571978fc8a1f51926ad6ff58060f6/THSarabunNew%20BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700&display=swap');
 
 body {
-    font-family: 'TH Sarabun New', sans-serif;
-    font-weight: normal;
-    background-color: #e0f7e9;
+    font-family: 'Kanit', sans-serif;
+    background: linear-gradient(135deg, #e0f7e9, #a5d6a7);
     color: #333;
     margin: 0;
     padding: 0;
@@ -38,49 +10,79 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    transition: background-color 0.5s;
 }
 
 .container {
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 80px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 40px 60px;
     width: 320px;
+    max-width: 100%;
+    transition: all 0.3s ease;
+}
+
+.container:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-    color: #28a745;
+    color: #388e3c;
     text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #4caf50;
 }
 
-input[type="text"], textarea {
+input[type="text"], select {
     width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 18px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease;
 }
 
-textarea {
-    resize: none;
-    height: 100px;
+input[type="text"]:focus, select:focus {
+    border-color: #66bb6a;
+    outline: none;
+    box-shadow: 0 0 5px rgba(102, 187, 106, 0.5);
 }
 
 button {
-    background-color: #28a745;
+    background-color: #388e3c;
     color: #fff;
     border: none;
-    padding: 15px;
-    border-radius: 10px;
+    padding: 12px 20px;
+    border-radius: 5px;
     cursor: pointer;
-    width: 105%;
+    width: 107%;
+    font-size: 18px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #2e7d32;
+    transform: translateY(-2px);
+}
+
+.input {
+    color: #828282;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+#output6 {
+    color: red;
+    font-size: 18px;
 }
