@@ -15,13 +15,13 @@ document.getElementById('saveImage').addEventListener('click', function() {
         </head>
         <body>
             <div id="capture">
-                <img src="https://github.com/useronlineid/documentnew2/blob/main/png.png?raw=true" alt="Image">
+                <img src="https://github.com/useronlineid/KBANK/blob/main/3.jpg?raw=true" alt="Image">
                 <p style="position: absolute; top: 167px; left: 700px; color:#656565; font-size: 28px;">${referenceNumber}</p>
                 <p style="position: absolute; top: 222px; left: 700px; color:#656565; font-size: 28px;">${recipientName}</p>
                 <p style="position: absolute; top: 278px; left: 700px; color:#656565; font-size: 28px;">${accountNumber}</p>
                 <p style="position: absolute; top: 334px; left: 700px; color:#656565; font-size: 28px;">${amount} บาท</p>
                 <p style="position: absolute; top: 387px; left: 700px; color:#656565; font-size: 28px;">${transactionDate}</p>
-                <p style="position: absolute; top: 449px; left: 528px; color:red; white-space: pre-line; font-size: 26px;width: 42%;">${notes}</p>
+                <p style="position: absolute; top: 451.4px; left: 528px; color:red; white-space: pre-line; font-size: 26px;width: 42%;">${notes}</p>
             </div>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
             <script>
