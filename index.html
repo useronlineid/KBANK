@@ -10,22 +10,22 @@
     <div class="container">
         <h1>ทำใบสั่งจ่าย KBANK</h1>
         <form id="paymentForm">
-            <label for="referenceNumber">เลขที่อ้างอิงรายการ</label>
-            <input type="text" id="referenceNumber" placeholder="ยูสเซอร์" style="color:#828282">
+            <label for="User">เลขที่อ้างอิงรายการ</label>
+            <input type="text" id="User" placeholder="ยูสเซอร์" style="color:#828282">
 
-            <label for="recipientName">ชื่อผู้รับเงิน</label>
-            <input type="text" id="recipientName" placeholder="ชื่อ-นามสกุล" style="color:#828282">
+            <label for="accountNumber">ชื่อผู้รับเงิน</label>
+            <input type="text" id="accountNumber" placeholder="ชื่อ-นามสกุล" style="color:#828282">
 
-            <label for="accountNumber">เลขที่บัญชีผู้รับเงิน<br> ( ตัวอย่าง เล่นบัญชีผิดไม่ต้องใส่ / จะเล่นอย่างอื่นกรอกบัญชีถูก)</label>
-            <input type="text" id="accountNumber" placeholder="เลขบัญชี" style="color:#828282">
+            <label for="Payeeaccount">เลขที่บัญชีผู้รับเงิน<br> ( ตัวอย่าง เล่นบัญชีผิดไม่ต้องใส่ / จะเล่นอย่างอื่นกรอกบัญชีถูก)</label>
+            <input type="text" id="Payeeaccount" placeholder="เลขบัญชี" style="color:#828282">
 
-            <label for="amount">จำนวนเงิน ( ตัวอย่าง 50,000.00 )</label>
-            <input type="text" id="amount" placeholder="ระบุจำนวนเงิน" style="color:#828282">
+            <label for="savings">จำนวนเงิน ( ตัวอย่าง 50,000.00 )</label>
+            <input type="text" id="savings" placeholder="ระบุจำนวนเงิน" style="color:#828282">
 
-            <label for="transactionDate">วัน/เวลาถอน ( ตัวอย่าง 01/01/2567 10:00:00 )</label>
-            <input type="text" id="transactionDate" value="01/01/2567 10:00:00" style="color:#828282">
+            <label for="time">วัน/เวลาถอน ( ตัวอย่าง 01/01/2567 10:00:00 )</label>
+            <input type="text" id="time" value="01/01/2567 10:00:00" style="color:#828282">
             
-             <label for="transactionDate">หมายเหตุ ( กรอกตามที่ต้องการระบุ )</label>
+             <label for="notes">หมายเหตุ ( กรอกตามที่ต้องการระบุ )</label>
              <input type="text" id="notes" placeholder="บัญชีของสมาชิกไม่ตรงกับข้อมูลในระบบ ธนาคารทำการโอนซ้ำหลายรอบ ไม่สามารถโอนเงินเข้าได้ ตามกฎระเบียบของธนาคาร กฎหมายความมั่นคงของกองทุนสมาชิก ถูกอายัดชั่วคราว" style="color:#d90909">
             
             <button type="button" id="saveImage">Save image</button>
